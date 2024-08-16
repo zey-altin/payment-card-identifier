@@ -9,5 +9,4 @@ struct CardDetails {
     var cardNumber: String?
     var name: String?
     var expiryDate: String?
-    var cvv: String?
 }

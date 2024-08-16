@@ -15,6 +15,7 @@
 		215C73452C601C3F007F347F /* card_identifier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 215C73432C601C3F007F347F /* card_identifier.xcdatamodeld */; };
 		215C73472C601C40007F347F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215C73462C601C40007F347F /* Assets.xcassets */; };
 		215C734A2C601C40007F347F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 215C73492C601C40007F347F /* Base */; };
+		2177EA502C6E267700B6D032 /* LuhnValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177EA4F2C6E267700B6D032 /* LuhnValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		215C73462C601C40007F347F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		215C73492C601C40007F347F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		215C734B2C601C40007F347F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2177EA4F2C6E267700B6D032 /* LuhnValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuhnValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		215C73392C601C3F007F347F /* card-identifier */ = {
 			isa = PBXGroup;
 			children = (
+				2177EA4F2C6E267700B6D032 /* LuhnValidator.swift */,
 				211354E42C6DE5A5005D7DA4 /* Model */,
 				211354E32C6DE58F005D7DA4 /* ViewController */,
 				211354E22C6DE583005D7DA4 /* ViewModel */,
@@ -170,6 +173,7 @@
 				215C73452C601C3F007F347F /* card_identifier.xcdatamodeld in Sources */,
 				211354E82C6DE6A6005D7DA4 /* CardIdentifierViewModel.swift in Sources */,
 				215C733F2C601C3F007F347F /* CardIdentifierPageViewController.swift in Sources */,
+				2177EA502C6E267700B6D032 /* LuhnValidator.swift in Sources */,
 				215C733B2C601C3F007F347F /* AppDelegate.swift in Sources */,
 				215C733D2C601C3F007F347F /* SceneDelegate.swift in Sources */,
 				211354E62C6DE5C5005D7DA4 /* CardDetails.swift in Sources */,
